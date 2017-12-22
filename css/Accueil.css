@@ -1,0 +1,264 @@
+
+
+p{
+    margin: 10px;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Vernada;
+    min-width: 200px;
+
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Vernada;
+    padding: 10px;
+    margin: 10px;
+}
+
+h4{
+
+    font-family: Arial, Vernada;
+}
+
+h2{
+    font-family: Arial, Verdana;
+    font-size: 30px;
+}
+
+section{
+    width: 70%;
+    min-width: 100px;
+    max-width: 1000px;
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.articleContent{
+    color: black;
+    border: 1px black solid;
+    font-family: Arial, Vernada;
+    border-radius: 4px;
+    box-shadow: 3px 2px 3px #656565;
+    width: 90%;
+    padding: 6px;
+    overflow: auto;
+    margin-bottom: 3px;
+    display: flex;
+}
+
+article{
+    font-family: Arial, Verdana;
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    width: 100%;
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 3px;
+    overflow: auto;
+    justify-content: flex-start;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    overflow: auto;
+    min-width: 400px;
+    background: #d4d2ff
+
+}
+
+nav{
+    font-size: 20px;
+    width: 10%;
+    min-width: 180px;
+    background: #aeb1ff;
+    border-right: 2px solid #191b57;
+    font-family: Arial, Verdana;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+header{
+    background: #191b57;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.midder{
+    display: flex;
+    justify-content: space-between;
+    min-height: 603px;
+}
+
+footer{
+    background: #191b57;
+    color: #aeb1ff;
+    text-align: right;
+    font-family: Arial, Verdana;
+    padding: 10px;
+    width: auto;
+}
+
+.Hermes{
+    color: #aeb1ff;
+    font-size: 50px;
+}
+
+.date{
+    color: #817983;
+    font-size: 12px;
+}
+
+.Error{
+    color: #b70806
+}
+
+.Success{
+    color: #199700
+}
+
+textarea{
+    width: 90%;
+    height: 90px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+
+
+input[type="text"], input[type="password"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 1px 0px 20px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    border-radius: 4px;
+    height: 50px;
+    width: 300px;
+}
+
+.researchPanel{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+
+.underHeader
+{
+    background: #aeb1ff;
+    color: #191b57;
+}
+
+
+.LogForms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+}
+.LogForm {
+    min-width: 300px;
+    max-width: 450px;
+    width: 100%;
+    margin: 15px;
+}
+legend {
+    font-family: Arial, Verdana;
+}
+.inForm {
+    font-family: Arial, Verdana;
+}
+
+fieldset {
+    border: 3px solid #aeb1ff;
+}
+
+@media only screen and (max-device-width: 900px) {
+    .Center {
+        max-width: 400px;
+        min-width: 300px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    article {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-device-width: 480px){
+    .Hermes{
+        font-size: 30px;
+    }
+
+    .midder {
+        width: 100%;
+        justify-content: space-around;
+    }
+    section{
+        padding-left: 10px;
+        width: 100%;
+        overflow: hidden;
+        min-width: 60px;
+    }
+    .LogOffButton>input{
+        width: 100px;
+        height: 50px;
+    }
+    .LogOffButton>form{
+        width: 100%;
+        height: 100%;
+    }
+    .LogOffButton{
+        display: flex;
+        justify-content: center;
+    }
+    .OffButton{
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 30px;
+    }
+
+
+
+
+
+}

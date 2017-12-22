@@ -1,0 +1,702 @@
+
+
+p{
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Vernada;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-family: Arial, Vernada;
+    padding: 10px;
+    margin: 10px;
+}
+
+h4{
+
+    font-family: Arial, Vernada;
+}
+
+h2{
+    font-family: Arial, Verdana;
+    font-size: 30px;
+}
+
+section{
+    width: 70%;
+    min-width: 100px;
+    max-width: 1000px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.articleContent{
+    color: black;
+    border: 1px black solid;
+    font-family: Arial, Vernada;
+    border-radius: 4px;
+    box-shadow: 3px 2px 3px #656565;
+    width: 90%;
+    padding: 6px;
+    overflow: auto;
+    margin-bottom: 3px;
+    display: flex;
+    word-wrap: break-word;
+}
+
+article{
+    font-family: Arial, Verdana;
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    width: 100%;
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 3px;
+    overflow: auto;
+    justify-content: flex-start;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    overflow: auto;
+}
+
+.LeftSide{
+    font-size: 18px;
+    width: 10%;
+    height: auto;
+    min-width: 180px;
+    background: #c5c3ca;
+    border-right: 2px solid #191b57;
+    font-family: Arial, Verdana;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 10px;
+}
+
+.Center{
+    display: flex;
+    flex-direction: column;
+    /*flex: 2;*/
+    min-width: 900px;
+    max-width: 900px;
+    overflow: auto;
+    align-items: center;
+}
+
+
+nav{
+    font-size: 20px;
+    width: 10%;
+    min-width: 180px;
+    background: #c5c3ca;
+    border-right: 2px solid #191b57;
+    font-family: Arial, Verdana;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+header{
+    background: #191b57;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+.midder{
+    display: flex;
+    justify-content: space-between;
+    min-height: 603px;
+}
+
+footer{
+    background: #191b57;
+    color: #c5c3ca;
+    text-align: right;
+    font-family: Arial, Verdana;
+    padding: 10px;
+    width: auto;
+}
+
+.Hermes{
+    color: #aeb1ff;
+}
+
+.Menu{
+    background: #c5c3ca;
+    margin: 8px;
+    padding: 8px;
+}
+
+.Friends{
+    background: #c5c3ca;
+    margin: 8px;
+    padding: 8px;
+}
+
+.headerArticle{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 20px;
+}
+
+.date{
+    color: #817983;
+    font-size: 12px;
+}
+
+.Error{
+    color: #b70806
+}
+
+.Success{
+    color: #199700
+}
+
+.RightSide{
+    font-size: 18px;
+    width: 10%;
+    height: auto;
+    min-width: 180px;
+    background: #aeb1ff;
+    border-left: 2px solid #191b57;
+    font-family: Arial, Verdana;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 10px;
+}
+
+.Notifications{
+    background: #d4d2ff;
+    padding: 5px;
+    overflow: auto;
+    width: auto;
+}
+
+.notification{
+    background: #e9edff;
+    padding: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    overflow: auto;
+}
+
+.notificationText{
+    font-size: 15px;
+    color: black;
+    overflow: auto;
+}
+
+
+.MessagingWindow{
+    display: flex;
+    width: 800px;
+    height: 550px;
+    overflow: auto;
+    padding: 0px;
+    border: 1px solid #c9c9c9;
+    margin-bottom: 16px;
+}
+
+.MessagingContact{
+    width: 200px;
+    height: 100%;
+    font-family: Arial, Verdana;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    border-right: 1px solid #c9c9c9;
+}
+
+.Messaging{
+    font-family: Arial, Verdana;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.LastFriendMessage{
+    background: #f1f1f1;
+    width: auto;
+    height: auto;
+    font-family: Arial, Verdana;
+    margin: 3px;
+    padding: 5px;
+    border: 1px solid #c3c3c3;
+    /*color: #a7a8c3;*/
+}
+
+.LastFriendMessageHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.LastConversations{
+    width: 200px;
+    height: 100%;
+    font-family: Arial, Verdana;
+    overflow: auto;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    border-right: 1px solid #c9c9c9;
+}
+
+.MessagingSearch{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.ConversationHeader{
+    width: auto;
+    height: 50px;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.Conversation{
+    width: auto;
+    height: 100%;
+    margin: 3px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.MessageRight{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.MessageLeft{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Message{
+    background: #ddddff;
+    width: 70%;
+    height: auto;
+    margin: 3px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #b1b1b1;
+    border-radius: 10px;
+    box-shadow: 4px 3px;
+}
+
+.MessageLeft>.Message{
+    box-shadow: -4px 3px;
+}
+
+.MessageHeader{
+    width: auto;
+    height: 20px;
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.MessageDate{
+    height: auto;
+}
+
+.MessageAutor{
+
+}
+
+.MessageContent{
+    height: 100%;
+    width: auto;
+    margin: 0px;
+    padding: 5px;
+}
+
+.MessageSendingZone{
+    display: flex;
+}
+
+.MessageSendingZone > form{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+textarea{
+    width: 90%;
+    height: 90px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.MessageSendButton{
+    width: auto;
+    height: auto;
+    border-radius: 4px;
+}
+
+.MobileButtons{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    background: #aeb1ff;
+    border-bottom: 2px solid #191b57;
+}
+
+.MobileButton{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    margin: 7px;
+    background: #8896ff;
+    display: flex;
+}
+
+
+
+input[type="text"], input[type="password"]{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 1px 0px 20px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    border-radius: 4px;
+    height: 50px;
+}
+
+.researchPanel{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.researchField{
+    width: auto;
+}
+
+
+
+
+
+
+
+@media only screen and (max-device-width: 900px) {
+    .Center {
+        max-width: 400px;
+        min-width: 300px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    article {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .LeftSide {
+        padding: 5px;
+        min-width: 100px;
+    }
+
+    .Friends {
+        margin: 0px;
+    }
+
+    .Friends > form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Friends > p {
+        font-size: 17px;
+    }
+
+    .Menu {
+        margin: 0px;
+        font-size: 17px;
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+
+    .RightSide {
+        padding: 5px;
+        min-width: 100px;
+    }
+
+    .Notifications {
+        margin: 0px;
+    }
+
+    .Notifications > h3 {
+        font-size: 15px;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-device-width: 480px){
+    .Hermes{
+        font-size: 30px;
+    }
+    .Center {
+        width: 100%;
+    }
+
+    .LeftSide{
+        width: 100%;
+    }
+
+    .RightSide{
+        width: 100%;
+    }
+
+    .midder {
+        width: 100%;
+        justify-content: space-around;
+    }
+    section{
+        padding-left: 10px;
+        width: 100%;
+        overflow: hidden;
+        min-width: 60px;
+    }
+    .LogOffButton>input{
+        width: 100px;
+        height: 50px;
+        justify-content: center;
+    }
+    .LogOffButton>form{
+        width: 100%;
+        height: 100%;
+    }
+    .LogOffButton{
+        display: flex;
+        justify-content: center;
+    }
+    .OffButton{
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .MobileButtons{
+
+    }
+    .MobileButton>p{
+        font-size: 18px;
+    }
+    p{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .Menu{
+        font-size: 30px;
+    }
+
+    .MessagingWindow{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+        border: 1px solid #c9c9c9;
+        margin-bottom: 16px;
+    }
+
+    .MessagingContact{
+        width: 100%;
+        height: 100%;
+        font-family: Arial, Verdana;
+        display: flex;
+        justify-content: baseline;
+        flex-direction: column;
+        border-right: 1px solid #c9c9c9;
+    }
+
+    .Messaging{
+        font-family: Arial, Verdana;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .LastFriendMessage{
+        background: #f1f1f1;
+        width: auto;
+        height: auto;
+        font-family: Arial, Verdana;
+        margin: 3px;
+        padding: 5px;
+        border: 1px solid #c3c3c3;
+        /*color: #a7a8c3;*/
+    }
+
+    .LastFriendMessageHeader{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .LastConversations{
+        width: 100%;
+        height: 100%;
+        font-family: Arial, Verdana;
+        overflow: auto;
+        display: flex;
+        justify-content: baseline;
+        flex-direction: column;
+        border-right: 1px solid #c9c9c9;
+    }
+
+    .MessagingSearch{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        padding: 5px;
+        border-bottom: 1px solid #c9c9c9;
+    }
+
+    .ConversationHeader{
+        width: auto;
+        height: 50px;
+        text-align: center;
+        margin: 0px;
+        padding: 5px;
+        border-bottom: 1px solid #c9c9c9;
+    }
+
+    .Conversation{
+        max-height: 1000px;
+        width: auto;
+        height: 100%;
+        margin: 3px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    }
+
+    .MessageRight{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .MessageLeft{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .Message{
+        background: #ddddff;
+        width: 100%;
+        height: auto;
+        margin: 3px;
+        padding: 4px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #b1b1b1;
+        border-radius: 10px;
+        box-shadow: 4px 3px;
+    }
+
+    .MessageLeft>.Message{
+        box-shadow: -4px 3px;
+    }
+
+    .MessageHeader{
+        width: auto;
+        height: 20px;
+        margin: 0px;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #c9c9c9;
+    }
+
+    .MessageDate{
+        height: auto;
+    }
+
+    .MessageAutor{
+
+    }
+
+    .MessageContent{
+        height: 100%;
+        width: auto;
+        margin: 0px;
+        padding: 5px;
+    }
+
+    .MessageSendingZone{
+        display: flex;
+    }
+
+    .MessageSendingZone > form{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+    }
+
+
+
+}
